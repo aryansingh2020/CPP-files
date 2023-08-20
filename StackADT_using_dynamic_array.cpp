@@ -22,13 +22,6 @@ public:
     int size();
     void print();
 };
-// int StackADT::createStack(int capacity)
-// {
-//     this->lastIndex = -1;
-//     this->capacity = capacity;
-//     this->ptr = new int[capacity];
-//     return(1);
-// }
 int StackADT::push(int value)
 {
     // this->lastIndex=this->lastIndex+1;
